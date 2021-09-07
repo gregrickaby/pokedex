@@ -18,7 +18,7 @@ Change directories and install dependencies:
 cd svelte-pokedex && npm i --legacy-peer-deps
 ```
 
-## Development
+## NPM Scripts
 
 Kick-off a local dev server:
 
@@ -47,7 +47,7 @@ npm run build
 Preview a build:
 
 ```bash
-npm run preview
+npm run start
 ```
 
 Learn more at <https://kit.svelte.dev/>
