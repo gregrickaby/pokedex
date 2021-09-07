@@ -1,9 +1,9 @@
 <svelte:head>
-	<title>About!</title>
+	<title>About - Svelte Pokédex</title>
 </svelte:head>
 
 <h1 class="text-4xl text-center my-8 uppercase">About</h1>
-<p>This is a static About Page!</p>
+<p>A Pokédex powered by SvelteKit and the PokeAPI</p>
 
 <style>
 	p {
