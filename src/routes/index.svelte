@@ -1,6 +1,7 @@
 <script>
 	import Card from '../components/Card.svelte';
 	import { pokemon, fetchPokemon } from '../stores/pokestore';
+
 	let searchTerm = '';
 	let filteredPokemon = [];
 
@@ -13,11 +14,12 @@
 			filteredPokemon = [...$pokemon];
 		}
 	}
+
 	fetchPokemon();
 </script>
 
 <svelte:head>
-	<title>A Pokédex powered by SvelteKit and the PokeAPI</title>
+	<title>Home - SvelteKit Pokédex</title>
 </svelte:head>
 
 <h1 class="text-4xl text-center my-8 uppercase">Pokédex</h1>
