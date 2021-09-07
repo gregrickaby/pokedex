@@ -7,6 +7,6 @@
 
 <style>
 	p {
-		color: red;
+		@apply text-red-500;
 	}
 </style>
