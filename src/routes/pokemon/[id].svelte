@@ -22,5 +22,12 @@
 		Type: <strong>{type}</strong> | Height: <strong>{pokeman.height}</strong>
 		| Weight: <strong>{pokeman.weight}</strong>
 	</p>
-	<img class="card-image" src={pokeman.sprites['front_default']} alt={pokeman.name} />
+
+	<img
+		alt={pokeman.name}
+		loading="lazy"
+		src={pokeman.sprites['front_default']}
+		height="160"
+		width="160"
+	/>
 </div>
