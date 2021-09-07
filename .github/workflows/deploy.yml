@@ -36,9 +36,9 @@ jobs:
             ${{ runner.OS }}-
 
       - name: Install
-        uses: npm ci
+        run: npm ci
 
-      - name: Install
+      - name: Build
         uses: npm run build
 
       - name: Deploy
