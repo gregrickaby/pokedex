@@ -1,6 +1,6 @@
-# SvelteKit Pokedex
+# SvelteKit Pokédex
 
-A Pokedex powered by SvelteKit and the PokeAPI. <https://svelte-pokedex-for-fun.vercel.app/>
+A Pokédex powered by SvelteKit and the PokeAPI. <https://svelte-pokedex-for-fun.vercel.app/>
 
 ---
 
