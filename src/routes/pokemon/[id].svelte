@@ -25,7 +25,7 @@
 
 	<img
 		alt={pokeman.name}
-		loading="lazy"
+		loading="eager"
 		src={pokeman.sprites['front_default']}
 		height="160"
 		width="160"
