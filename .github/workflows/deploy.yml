@@ -39,7 +39,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        uses: npm run build
+        run: npm run build
 
       - name: Deploy
         uses: Cecilapp/GitHub-Pages-deploy@v3
