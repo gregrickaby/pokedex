@@ -14,6 +14,7 @@
 
 <svelte:head>
 	<title>Pokedex - {pokeman.name}</title>
+	<meta name="description" content="Learn more about {pokeman.name}" />
 </svelte:head>
 
 <div class="flex flex-col items-center">
