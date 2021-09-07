@@ -20,10 +20,34 @@ cd svelte-pokedex && npm i --legacy-peer-deps
 
 ## Development
 
-Kick off a local dev server:
+Kick-off a local dev server:
 
 ```bash
 npm run dev
+```
+
+Format the codebase:
+
+```bash
+npm run format
+```
+
+Lint the codebase:
+
+```bash
+npm run lint
+```
+
+Build the codebase:
+
+```bash
+npm run build
+```
+
+Preview a build:
+
+```bash
+npm run preview
 ```
 
 Learn more at <https://kit.svelte.dev/>
